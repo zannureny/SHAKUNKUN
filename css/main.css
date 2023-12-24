@@ -1,0 +1,380 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  background-color: darkgray;
+}
+
+.main {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(../pics/b1.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../pics/b1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 109vh;
+  width: 100%;
+}
+
+.birth {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+  color: darkgoldenrod;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.birth h2 {
+  color: darkgoldenrod;
+  font-size: 45px;
+}
+
+.birth span {
+  color: wheat;
+  font-size: 55px;
+}
+
+.layer {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: transparent;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.layer:hover {
+  background-color: transparent;
+}
+
+.layer h1 {
+  width: 100%;
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  color: white;
+  font-size: 60px;
+  color: wheat;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  font-weight: bold;
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.layer:hover h1 {
+  bottom: 49%;
+  opacity: 1;
+}
+
+@media (max-width: 600px) {
+  .birth h2 {
+    font-size: 26px;
+  }
+  .birth span {
+    font-size: 27px;
+  }
+  .layer h1 {
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    color: white;
+    font-size: 30px;
+    color: wheat;
+    -webkit-transform: translate(-50%);
+            transform: translate(-50%);
+    font-weight: bold;
+    opacity: 0;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    padding: 10px;
+  }
+  .layer:hover h1 {
+    bottom: 53%;
+    opacity: 1;
+  }
+}
+
+.balki {
+  text-align: center;
+  width: 100%;
+}
+
+.ruwa h1 {
+  color: black;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 33px;
+  font-family: sans-serif;
+  padding: 12px;
+  -webkit-box-shadow: 4px 3px 4px 3px darkgoldenrod;
+          box-shadow: 4px 3px 4px 3px darkgoldenrod;
+  font-weight: 900;
+}
+
+.row {
+  background-color: black;
+}
+
+.col {
+  width: 31.33333%;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-top: 5%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 3px;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  padding: 3px;
+}
+
+.col:hover {
+  -webkit-box-shadow: 4px 3px 4px 3px darkgoldenrod;
+          box-shadow: 4px 3px 4px 3px darkgoldenrod;
+}
+
+.col img {
+  width: 100%;
+  height: auto;
+}
+
+.col h2 {
+  color: #0d0c0c;
+  text-align: center;
+  font-size: 50px;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-shadow: -1px 1px  white;
+}
+
+.col p {
+  color: #fac747;
+  text-align: center;
+  font-size: 20px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-weight: bold;
+  text-shadow: 0 0 3px  black;
+  background-color: transparent;
+}
+
+.col span {
+  color: white;
+  text-shadow: 0 0 3px  black;
+}
+
+@media screen and (max-width: 800px) {
+  .col {
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .col h2 {
+    font-size: 33px;
+    margin-top: 20px;
+  }
+  .col p {
+    margin-top: -30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .col {
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .col h2 {
+    font-size: 33px;
+    margin-top: 20px;
+  }
+  .col p {
+    margin-top: -30px;
+  }
+}
+
+.fml {
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.fml h3 {
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 300;
+  padding-bottom: 15px;
+  padding-top: 5px;
+}
+
+.fml h1 {
+  font-size: 33;
+  font-family: sans-serif;
+  font-weight: 700;
+  -webkit-box-shadow: 4px 3px 4px 3px darkgoldenrod;
+          box-shadow: 4px 3px 4px 3px darkgoldenrod;
+}
+
+.jeri {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: black;
+}
+
+.hawa {
+  -webkit-box-flex: 25%;
+      -ms-flex: 25%;
+          flex: 25%;
+  max-width: 24%;
+  padding-left: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-left: 8px;
+}
+
+.hawa:hover {
+  -webkit-box-shadow: 0 0 20px 0px darkgoldenrod;
+          box-shadow: 0 0 20px 0px darkgoldenrod;
+}
+
+.hawa img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 800px) {
+  .hawa {
+    -webkit-box-flex: 48%;
+        -ms-flex: 48%;
+            flex: 48%;
+    max-width: 48%;
+    padding: 0 2px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hawa {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.test {
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+  margin: auto;
+  background-color: black;
+}
+
+.test h1 {
+  font-weight: 600;
+  font-size: 26px;
+  color: darkgray;
+  padding-top: 30px;
+  margin-bottom: -25px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.test:hover h1 {
+  color: darkgoldenrod;
+}
+
+.roo {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5%;
+}
+
+.cool {
+  -ms-flex-preferred-size: 33%;
+      flex-basis: 33%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 10px;
+  color: black;
+  background-color: darkgray;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.cool:hover {
+  -webkit-box-shadow: 0 0 20px 0px darkgoldenrod;
+          box-shadow: 0 0 20px 0px darkgoldenrod;
+}
+
+.cool h3 {
+  font-weight: 600;
+  margin: 10px 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .roo {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .test h1 {
+    font-weight: 600;
+    font-size: 13px;
+  }
+}
+
+.footer h3 {
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding-bottom: 15px;
+}
+
+.foot {
+  background-color: black;
+  height: 30px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+.foot:hover h3 {
+  color: darkgoldenrod;
+}
+/*# sourceMappingURL=main.css.map */
